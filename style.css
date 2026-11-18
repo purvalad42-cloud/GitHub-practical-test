@@ -317,3 +317,80 @@ footer p {
 .social-links a:hover {
     color: white;
 }
+/* Responsive Design */
+
+/* Tablet Screen */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    nav a {
+        margin: 8px;
+        display: inline-block;
+    }
+
+    #skills ul {
+        gap: 10px;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width: 480px) {
+
+    header {
+        padding: 30px 10px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    section h2 {
+        font-size: 23px;
+    }
+
+    #skills li {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .project {
+        padding: 18px;
+    }
+
+    .project h3 {
+        font-size: 19px;
+    }
+
+    footer {
+        padding: 25px 10px;
+    }
+}
