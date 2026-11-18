@@ -135,3 +135,59 @@ nav a:hover {
     color: #172554;
     transform: translateY(-5px);
 }
+/* Projects Section Styling */
+
+#projects {
+    padding: 40px 10%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#projects h2 {
+    color: #172554;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.project {
+    background-color: #f4f6f9;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project h3 {
+    color: #1e3a8a;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project a:hover {
+    background-color: #facc15;
+    color: #172554;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
