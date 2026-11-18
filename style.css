@@ -96,3 +96,42 @@ nav a:hover {
     max-width: 800px;
     margin: auto;
 }
+/* Skills Section Styling */
+
+#skills {
+    padding: 40px 10%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    color: #172554;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    background-color: #facc15;
+    color: #172554;
+    transform: translateY(-5px);
+}
