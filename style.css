@@ -227,3 +227,58 @@ nav a:hover {
 .contact-info a:hover {
     color: #f59e0b;
 }
+/* Animation Effects */
+
+/* Header Animation */
+header {
+    animation: slideDown 1s ease;
+}
+
+/* Section Animation */
+section {
+    animation: fadeIn 1.2s ease;
+}
+
+/* Project Hover Effect */
+.project:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+}
+
+/* Skills Hover Effect */
+#skills li:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+/* Navigation Hover Effect */
+nav a:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
